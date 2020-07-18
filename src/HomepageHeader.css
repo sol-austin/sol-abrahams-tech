@@ -1,0 +1,56 @@
+.title-text-container {
+  margin: auto;
+  width: 50%;
+}
+
+button.find-out-more {
+  display: block;
+  margin: 20px auto auto;
+  padding: 15px 20px;
+  background: none;
+  border-color: black;
+  border-style: solid;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+button.find-out-more:hover {
+  background-color: orange;
+  border-color: orange;
+}
+
+.rotate-arrow {
+  transition: all 0.3s ease-in-out;
+  vertical-align: middle;
+}
+
+button.find-out-more > p {
+  vertical-align: middle;
+}
+
+.outer-homepage-header-container {
+  min-height: 100vh;
+  background: linear-gradient(to top, #ECEBEA 20%, #605B56 80%);
+  display: flex;
+  position: fixed;
+  min-width: 100vw;
+  z-index:0;
+}
+
+.title-text-container > h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title-text-container > h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button.find-out-more:hover > .rotate-arrow {
+  transform: rotate(90deg);
+}

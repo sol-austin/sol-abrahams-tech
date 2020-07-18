@@ -1,0 +1,37 @@
+.homepage-body {
+  min-height: 100vh;
+  column-count: 2;
+  position: relative;
+  top: 95vh;
+  background: #ECEBEA;
+  column-gap: 0;
+}
+
+.homepage-col {
+  min-height: 100vh;
+}
+
+.homepage-card {
+  min-height: 50vh;
+  display: flex;
+}
+
+.homepage-card-vertical-middle {
+  margin: auto;
+}
+
+#homepage-card-education {
+  background-color: #7D6812;
+}
+
+#homepage-card-achievements {
+  background-color: #BB9B1B;
+}
+
+#homepage-card-experience {
+  background-color: #E0BC29;
+}
+
+#homepage-card-other {
+  background-color: #EBD270;
+}
