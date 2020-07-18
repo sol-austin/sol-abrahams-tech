@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Homepage from './Homepage';
+import AnimatedSwitch from './AnimatedSwitch';
+import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-        <div className="homepage-container" style={{ width: '100%' }}>
-          <Homepage />
-        </div>
+      <BrowserRouter>
+      <AnimatedSwitch />
+      </BrowserRouter>
     </div>
   );
 }
