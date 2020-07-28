@@ -5,7 +5,7 @@ const HomepageHeader = () => {
   return (
     <div className="outer-homepage-header-container">
     <div className="title-text-container" style={ { zIndex:999,  color:'white' } }>
-      <h1 style={{fontWeight:'normal'}}>Hello, I'm <span style={{ color:'orange'}}>Sol Abrahams.</span></h1>
+      <h1 style={{fontWeight:'normal'}}>Hello, I'm <span>Sol Abrahams.</span></h1>
       <hr />
       <h3 style={ { fontWeight:'normal'} }>I'm a student with a passion for<br />programming and problem solving.</h3>
       <button className="find-out-more">

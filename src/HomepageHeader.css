@@ -11,11 +11,12 @@ button.find-out-more {
   border-color: black;
   border-style: solid;
   transition: all 0.3s ease-in-out 0s;
+  font-family: 'Oswald', sans-serif;
 }
 
 button.find-out-more:hover {
-  background-color: orange;
-  border-color: orange;
+  background-color: #E0BC29;
+  border-color: #E0BC29;
 }
 
 .rotate-arrow {
@@ -53,4 +54,8 @@ hr {
 
 button.find-out-more:hover > .rotate-arrow {
   transform: rotate(90deg);
+}
+
+div.title-text-container > h1 > span {
+  color: #E0BC29;
 }

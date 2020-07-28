@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 .homepage-body {
   min-height: 100vh;
   column-count: 2;
@@ -5,6 +7,7 @@
   top: 95vh;
   background: #ECEBEA;
   column-gap: 0;
+  color: #545454;
 }
 
 .homepage-col {
@@ -12,7 +15,7 @@
 }
 
 .homepage-card {
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
 }
 
@@ -20,18 +23,23 @@
   margin: auto;
 }
 
-#homepage-card-education {
-  background-color: #7D6812;
-}
-
-#homepage-card-achievements {
-  background-color: #BB9B1B;
+#homepage-card-education-achievements {
+  background-color: #DDAE92;
 }
 
 #homepage-card-experience {
-  background-color: #E0BC29;
+  background-color: #BAB0BF;
 }
 
-#homepage-card-other {
-  background-color: #EBD270;
+div.homepage-col > a {
+  text-decoration: none;
+  color: #545454;
+}
+
+div.homepage-card > div.homepage-card-vertical-middle > h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+div.homepage-card > div.homepage-card-vertical-middle >  p {
+  font-family: 'Oswald', sans-serif;
 }

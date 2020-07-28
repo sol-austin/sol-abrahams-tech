@@ -6,30 +6,20 @@ const HomepageBody = () => {
   return (
     <div className='homepage-body'>
       <div className="homepage-col-1 homepage-col">
-        <div id="homepage-card-education" className="homepage-card">
+        <Link to="/education">
+        <div id="homepage-card-education-achievements" className="homepage-card">
           <div className='homepage-card-vertical-middle'>
-            <Link to='/education'><h1 className="homepage-card-title">Education</h1></Link>
-            <p>The Latymer School</p>
-          </div>
-        </div>
-        <div id="homepage-card-experience" className="homepage-card">
-          <div className='homepage-card-vertical-middle'>
-            <h1 className="homepage-card-title">Experience</h1>
-            <p>Forensic Architecture, Rookie Cooks, Catherine Powell</p>
-          </div>
-        </div>
-      </div>
-      <div id="homepage-card-achievements" className="homepage-col-2 homepage-col">
-        <div className="homepage-card">
-          <div className='homepage-card-vertical-middle'>
-            <h1 className="homepage-card-title">Achievements</h1>
+            <h1 className="homepage-card-title">Education & Achievements</h1>
             <p>CyberStart Elite, DofE, DataCamp, SANS SEC560</p>
           </div>
         </div>
-        <div id="homepage-card-other" className="homepage-card">
+        </Link>
+      </div>
+      <div className="homepage-col-2 homepage-col">
+        <div id="homepage-card-experience" className="homepage-card">
           <div className='homepage-card-vertical-middle'>
-            <h1 className="homepage-card-title">Other</h1>
-            <p>Other</p>
+            <h1 className="homepage-card-title">Work Experience</h1>
+            <p>Forensic Architecture, Rookie Cooks, Catherine Powell</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,100 @@
+.education-page-container > h1 {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.inner-education-container {
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+}
+
+.education-page-container {
+  background-color: #DDAE92;
+  min-height: 100vh;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+ul.education-achievement-events > li {
+  background-color: white;
+  padding: 20px;
+  box-shadow: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+  margin-bottom: 20px;
+}
+
+.card-left-header h2, .card-left-header h5 {
+  text-align: left;
+}
+
+.card-left-header {
+  flex: 1; 
+}
+
+.card-section {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card-right-gcse-grades {
+  float: right;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.card-right-alevel-grades {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0;
+}
+
+.grade-number {
+  float: right;
+  margin-left: 5px;
+}
+
+.education-achievement-events > li > div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gcse-grades-column {
+  display: inline-block;
+}
+
+.left-column-gcse-grades {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.gcse-grades-column > li {
+  width: max-content;
+}
+
+.card-right-description {
+  flex: 3;
+  display: flex;
+  margin-right: 20px;
+}
+
+.card-right-description > p {
+  margin: auto;
+}
+
+@media (max-width:900px) {
+  .education-achievement-events > li > div {
+    flex-direction: column;
+  }
+}
+
+.gcse-columns-container {
+  display: flex;
+}
