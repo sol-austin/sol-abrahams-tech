@@ -27,17 +27,17 @@ const copy = {
       {
         title: 'DataCamp - Data Scientist with Python - Career Track',
         dates: 'Jun 2020',
-        description: 'Here is a default description'
+        description: 'During lockdown, I completed the Data Scientist with Python career track. This helped me gain a deeper understanding of data science and machine learning. I completed practical exercises with basic classifiers and regressors before moving into more advanced unsupervised learning techniques such as neural networks. I intend to complete the fastAI course to further my knowledge.'
       },
       {
-        title: 'CyberDiscovery',
+        title: 'Cyber Discovery (CyberStart)',
         dates: 'Sep 2019 - May 2020',
-        description: 'Here is a default description'
+        description: 'After qualifying for the main stage of the CyberDiscovery program, I participated in interactive challenges throughout the year. With an aim to qualify for Elite in my first year and my GCSE year, I learnt to balance commitments. I completed 97% of challenges, including web exploitation, binary exploitation, forensic recovery, python scripting and cryptography.'
       },
       {
         title: 'CyberStart Essentials - Distinction',
         dates: 'May 2020',
-        description: 'Here is a default description'
+        description: 'CyberStart Essentials complemented CyberStart Game, the two mains parts of the CyberDiscovery program. Whilst Game is practical challenges, Essentials focuses on teaching the theory through a series of videos and articles. There is a mini-quiz and exam at the end of each section, building up to a final 1 hour 30 mins exam in which I scored 88% and achieved a distinction.'
       },
       {
         title: 'Duke of Edinburgh (Bronze)',
