@@ -10,9 +10,9 @@ const Education = () => {
         <div className='inner-education-container'>
           <h1>EDUCATION & ACHIEVEMENTS</h1>
           <ul className='education-achievement-events'>
-            { copy.education.cards.map(card => (
+            {copy.education.cards.map(card => (
               <CardRow card={card} key={card.title} />
-            )) }
+            ))}
           </ul>
         </div>
       </div>
