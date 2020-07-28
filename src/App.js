@@ -1,16 +1,16 @@
-import React from 'react';
-import './App.css';
-import AnimatedSwitch from './AnimatedSwitch';
-import {BrowserRouter} from 'react-router-dom'
+import React from 'react'
+import './App.css'
+import AnimatedSwitch from './AnimatedSwitch'
+import { BrowserRouter } from 'react-router-dom'
 
-function App() {
+function App () {
   return (
-    <div className="App">
+    <div className='App'>
       <BrowserRouter>
-      <AnimatedSwitch />
+        <AnimatedSwitch />
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
