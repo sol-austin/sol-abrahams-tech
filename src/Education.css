@@ -51,9 +51,10 @@ ul.education-achievement-events > li {
 }
 
 .card-right-alevel-grades {
-  margin-top: auto;
-  margin-bottom: auto;
   margin-right: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .grade-number {
@@ -72,7 +73,6 @@ ul.education-achievement-events > li {
 
 .left-column-gcse-grades {
   margin-right: 50px;
-  margin-left: 50px;
 }
 
 .gcse-grades-column > li {
@@ -82,19 +82,24 @@ ul.education-achievement-events > li {
 .card-right-description {
   flex: 3;
   display: flex;
-  margin-right: 20px;
+  min-width: 200px;
 }
 
 .card-right-description > p {
   margin: auto;
 }
 
-@media (max-width:900px) {
-  .education-achievement-events > li > div {
-    flex-direction: column;
-  }
-}
-
 .gcse-columns-container {
   display: flex;
+  justify-content: center;
+}
+
+.the-latymer-school {
+  justify-content: center;
+}
+
+.card-right-school-grades {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
