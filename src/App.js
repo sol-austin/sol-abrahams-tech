@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import AnimatedSwitch from './AnimatedSwitch';
 import {BrowserRouter} from 'react-router-dom'
