@@ -21,5 +21,5 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: ESLint Action
-        run: npx eslint ./
+        run: npx eslint "**"
 
