@@ -14,7 +14,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
         enter: 500,
         exit: 100
       }}
-      onExit = {() => {
+      onExit={() => {
         window.scrollTo(0, 0)
       }}
     >
