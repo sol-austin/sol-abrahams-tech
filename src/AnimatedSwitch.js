@@ -10,7 +10,13 @@ const AnimatedSwitch = withRouter(({ location }) => (
     <CSSTransition
       key={location.key}
       classNames='fade'
-      timeout={300}
+      timeout={{
+        enter: 500,
+        exit: 100
+      }}
+      onExit = {() => {
+        window.scrollTo(0, 0)
+      }}
     >
       <Switch location={location}>
         <Route path='/education' component={Education} />
