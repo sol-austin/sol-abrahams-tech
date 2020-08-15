@@ -64,7 +64,7 @@ const copy = {
         title: 'Delancey Schools Chess Challenge GigaFinal',
         dates: 'July 2015',
         description: 'Here is a default description',
-        logos: []
+        logos: ['delancey.png']
       }
     ]
   }

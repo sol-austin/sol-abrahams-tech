@@ -20,7 +20,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
       }}
     >
       <Switch location={location}>
-        <Route path='/work-experience' component={WorkExperience}/>
+        <Route path='/work-experience' component={WorkExperience} />
         <Route path='/education' component={Education} />
         <Route path='/' component={Homepage} />
       </Switch>
