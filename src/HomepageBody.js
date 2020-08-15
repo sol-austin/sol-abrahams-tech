@@ -16,12 +16,14 @@ const HomepageBody = () => {
         </Link>
       </div>
       <div className='homepage-col-2 homepage-col'>
-        <div id='homepage-card-experience' className='homepage-card'>
-          <div className='homepage-card-vertical-middle'>
-            <h1 className='homepage-card-title'>Work Experience</h1>
-            <p>Forensic Architecture, Rookie Cooks, Catherine Powell</p>
+        <Link to='/work-experience'>
+          <div id='homepage-card-experience' className='homepage-card'>
+            <div className='homepage-card-vertical-middle'>
+              <h1 className='homepage-card-title'>Work Experience</h1>
+              <p>Forensic Architecture, Rookie Cooks, Catherine Powell</p>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   )

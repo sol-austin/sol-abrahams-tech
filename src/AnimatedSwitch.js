@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route, withRouter } from 'react-router-dom'
 import Homepage from './Homepage'
 import Education from './Education'
+import WorkExperience from './WorkExperience'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import './Fade.css'
 
@@ -19,6 +20,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
       }}
     >
       <Switch location={location}>
+        <Route path='/work-experience' component={WorkExperience}/>
         <Route path='/education' component={Education} />
         <Route path='/' component={Homepage} />
       </Switch>

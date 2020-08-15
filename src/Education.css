@@ -110,3 +110,35 @@ ul.education-achievement-events > li {
   box-shadow: 2px 2px 5px grey;
   margin: 10px;
 }
+
+.internal-card > h3 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.date-container {
+  width: fit-content;
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+}
+
+.date-container > h5 {
+  line-height: 50px;
+  margin: 0;
+}
+
+.logos-container {
+  display: inline-block;
+}
+
+.logos-container > img {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.outer-cards-description-school-grades-container {
+  display: flex;
+  flex: 3 1;
+}
