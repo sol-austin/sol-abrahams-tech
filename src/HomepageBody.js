@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const HomepageBody = () => {
   return (
-    <div className='homepage-body'>
+    <div className='homepage-body' id='homepage-body'>
       <div className='homepage-col-1 homepage-col'>
         <Link to='/education'>
           <div id='homepage-card-education-achievements' className='homepage-card'>

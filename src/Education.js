@@ -10,6 +10,22 @@ const Education = () => {
         <div className='inner-education-container'>
           <h1>EDUCATION & ACHIEVEMENTS</h1>
           <ul className='education-achievement-events'>
+            <li className='the-latymer-school'>
+              <div className='the-latymer-school'>
+                <div className='internal-card'>
+                  <h3>UKMT Junior Mathematics Challenge - Silver</h3>
+                </div>
+                <div className='internal-card'>
+                  <h3>UKMT Junior Mathematics Challenge - Gold</h3>
+                </div>
+                <div className='internal-card'>
+                  <h3>UKMT Junior Mathematics Challenge - Kangaroo</h3>
+                </div>
+                <div className='internal-card'>
+                  <h3>UKMT Intermediate Mathematics Challenge - Gold</h3>
+                </div>
+              </div>
+            </li>
             {copy.education.cards.map(card => (
               <CardRow card={card} key={card.title} />
             ))}
