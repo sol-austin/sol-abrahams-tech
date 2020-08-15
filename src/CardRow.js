@@ -2,8 +2,8 @@ import React from 'react'
 
 const CardRow = (props) => {
   return (
-    <li className='the-latymer-school'>
-      <div className='the-latymer-school'>
+    <li className='education-list-item'>
+      <div className='education-item-container'>
         <div className='card-left-header card-section'>
           <h2>{props.card.title}</h2>
           <div className='icons-dates-container'>
