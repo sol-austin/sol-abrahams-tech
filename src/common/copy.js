@@ -28,7 +28,7 @@ const copy = {
             'cleaning up code and using pull requests to merge changes;',
             'adding a search bar feature to the web app;',
             'being mentored weekly by one of FA’s open source developers.'
-        ]
+          ]
         },
         description: 'This is a default description',
         logos: ['forensicarchitecture.png'],
@@ -46,7 +46,7 @@ const copy = {
             'adapting custom parts of the theme to be responsive and attractive on mobile devices and tablets;',
             'advising the customer and a wider cohort of therapists on the optimal booking system for the client\'s requirements and tweaking it further to ensure it was successful;',
             'integrated Stripe with the booking system and added a function ensuring payments were linked to the customer and appointment booked, utilising the Stripe API.'
-          ] 
+          ]
         },
         description: 'I developed a Wordpress website from scratch alongside building on an existing booking solution. Whilst the website itself was built on Wordpress to allow easy content management after the initial build by non technical users, I custom wrote most of the site according to the client\'s design specification. This involved digging into Wordpress theme files and selectively overriding specific ones. I also had to adapt custom parts of the theme to be responsive and attractive on mobile devices and tablets. I advised on the optimal booking system for the client\'s requirements and tweaked it further to ensure it was successful. I integrated Stripe with the booking system and added a function ensuring payments were linked to the customer and appointment booked, utilising the Stripe API.',
         logos: ['catherinepowell.png']

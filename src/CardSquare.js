@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CardSquare = (props) => {
-  let extra_info = props.card.extra_info || []
+  const extraInfo = props.card.extra_info || ''
 
   return (
     <div className='square-card-container'>
@@ -19,7 +19,7 @@ const CardSquare = (props) => {
             <li key={item}>{item}</li>
           ))}
         </ul>
-        <p>{extra_info}{props.card.title === 'Forensic Architecture' ?  <a href='https://www.github.com/sol-austin'>GitHub Profile.</a> : ''}</p>
+        <p>{extraInfo}{props.card.title === 'Forensic Architecture' ? <a href='https://www.github.com/sol-austin'>GitHub Profile.</a> : ''}</p>
       </div>
     </div>
   )
