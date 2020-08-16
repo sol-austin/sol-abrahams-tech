@@ -10,6 +10,7 @@ const CardSquare = (props) => {
           ))}
           <h2>{props.card.title}</h2>
         </div>
+        <p>{props.card.description}</p>
       </div>
     </div>
   )

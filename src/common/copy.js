@@ -3,19 +3,22 @@ const copy = {
     cards: [
       {
         title: 'Rookie Cooks',
-        description: 'I helped with lots of things',
+        description: 'I worked at Rookie Cooks',
         logos: ['rookiecooks.png']
       },
       {
         title: 'Catherine Powell',
-        logos: []
+        description: 'This is a default description',
+        logos: ['catherinepowell.png']
       },
       {
         title: 'Forensic Architecture',
+        description: 'This is a default description',
         logos: ['forensicarchitecture.png']
       },
       {
         title: 'Children\'s Air Ambulance',
+        description: 'This is a default description',
         logos: ['childrenairambulance.jpg']
       }
     ]
