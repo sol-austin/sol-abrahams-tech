@@ -16,15 +16,19 @@ const Education = () => {
               <div className='the-latymer-school'>
                 <div className='internal-card'>
                   <h3>UKMT Junior Mathematics Challenge - Silver</h3>
+                  <h5>2014</h5>
                 </div>
                 <div className='internal-card'>
                   <h3>UKMT Junior Mathematics Challenge - Gold</h3>
+                  <h5>2015</h5>
                 </div>
                 <div className='internal-card'>
                   <h3>UKMT Junior Mathematics Challenge - Kangaroo</h3>
+                  <h5>2017</h5>
                 </div>
                 <div className='internal-card'>
                   <h3>UKMT Intermediate Mathematics Challenge - Gold</h3>
+                  <h5>2019</h5>
                 </div>
               </div>
             </li>

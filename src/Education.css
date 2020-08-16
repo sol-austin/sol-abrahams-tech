@@ -106,8 +106,8 @@ ul.education-achievement-events > li {
 
 .internal-card {
   width: calc(25% - 20px);
-  background-color: #d1d1d1;
-  box-shadow: 2px 2px 5px grey;
+  background-color: #BAB0BF;
+  box-shadow: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
   margin: 10px;
 }
 

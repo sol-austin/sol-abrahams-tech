@@ -3,12 +3,11 @@ const copy = {
     cards: [
       {
         title: 'Rookie Cooks',
-        dates: 'March 2020 - Present [paid job]',
+        dates: 'March 2020 - Present [paid work]',
         list: {
           list_title: 'A wide ranging technical support role including:',
           list_items: [
-            'web development;',
-            'supporting digital advertising campaigns;',
+            'web development and supporting digital advertising campaigns;',
             'advising on and managing a transfer of booking systems in order to support the growing online business, leading to savings of at least 2% per transaction;',
             'developing a custom WordPress plugin utilising the Bookwhen API to display classes on our site in a suitable format;',
             'assisting with running a successful Google Ads campaign which saw a significant rise in booking numbers;',
@@ -37,7 +36,7 @@ const copy = {
       },
       {
         title: 'Catherine Powell',
-        dates: 'July 2020 - Present [paid job]',
+        dates: 'July 2020 - Present [paid work]',
         list: {
           list_title: 'A web development role including:',
           list_items: [
@@ -54,7 +53,7 @@ const copy = {
       },
       {
         title: 'Children\'s Air Ambulance',
-        dates: 'September 2018 - July 2019 [voluntary job]',
+        dates: 'September 2018 - July 2019 [voluntary work]',
         list: {
           list_title: 'A customer facing retail role including:',
           list_items: [
@@ -118,13 +117,13 @@ const copy = {
       {
         title: 'Duke of Edinburgh (Bronze)',
         dates: 'Sep 2019',
-        description: 'Here is a default description',
+        description: 'Throughout the year, I completed my volunteering activity at the Children\'s Air Ambulance charity shop, working on the tills, teaching me valuable life skills. I also learnt photography which I continue to enjoy in my free time, using a DSLR camera and Lightroom to edit my photos. I rounded off DofE with a 2 day camping trip, developing important teamwork and communication skills.',
         logos: ['dofe.jpg']
       },
       {
         title: 'Delancey Schools Chess Challenge GigaFinal',
         dates: 'July 2015',
-        description: 'Here is a default description',
+        description: 'In Year 6, I was selected from my school\'s chess club to compete in a national tournament. It began with a regional \'Megafinal\' in which I was the only student from my school to pass. I gained valuable experience at the \'Gigafinal\', where I was tutored by an professional chess player.',
         logos: ['delancey.png']
       }
     ]
