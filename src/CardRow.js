@@ -12,8 +12,8 @@ const CardRow = (props) => {
             </div>
             <div className='logos-container'>
               {props.card.logos.map((logo) => (
-                <a rel='noopener noreferrer' className='title-link' target='_blank' href={props.card.link}>
-                  <img key={logo} alt='logo' src={require('../public/logos/' + logo)} height={50} width={50} />
+                <a key={logo} rel='noopener noreferrer' className='title-link' target='_blank' href={props.card.link}>
+                  <img alt='logo' src={require('../public/logos/' + logo)} height={50} width={50} />
                 </a>
               ))}
             </div>
