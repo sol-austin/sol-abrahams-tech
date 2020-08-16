@@ -132,9 +132,12 @@ ul.education-achievement-events > li {
   display: inline-block;
 }
 
-.logos-container > img {
+.logos-container > a {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.logos-container > a > img {
   border-radius: 5px;
 }
 

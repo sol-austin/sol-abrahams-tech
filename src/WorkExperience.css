@@ -47,15 +47,20 @@
     display: inline-block;
 }
 
-.logo-title-container > img {
+.logo-title-container > a > img {
     border-radius: 5px;
 }
 
-.logo-title-container > h2 {
+.logo-title-container > a {
     margin: 0;
     line-height: 50px;
     vertical-align: top;
     margin-left: 10px;
+}
+
+.logo-title-container > a > h2 {
+    margin: 0;
+    line-height: 50px;
 }
 
 .outer-square-cards-container {

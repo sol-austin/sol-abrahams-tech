@@ -4,6 +4,7 @@ const copy = {
       {
         title: 'Rookie Cooks',
         dates: 'March 2020 - Present [paid work]',
+        link: 'https://www.rookiecooks.com',
         list: {
           list_title: 'A wide ranging technical support role including:',
           list_items: [
@@ -20,6 +21,7 @@ const copy = {
       {
         title: 'Forensic Architecture',
         dates: 'July 2020 - Present [unpaid internship]',
+        link: 'https://forensic-architecture.org/',
         list: {
           list_title: 'An open source development role including:',
           list_items: [
@@ -37,6 +39,7 @@ const copy = {
       {
         title: 'Catherine Powell',
         dates: 'July 2020 - Present [paid work]',
+        link: 'https://cpcoghyp.com/',
         list: {
           list_title: 'A web development role including:',
           list_items: [
@@ -54,6 +57,7 @@ const copy = {
       {
         title: 'Children\'s Air Ambulance',
         dates: 'September 2018 - July 2019 [voluntary work]',
+        link: 'https://theairambulanceservice.org.uk/childrens-air-ambulance/',
         list: {
           list_title: 'A customer facing retail role including:',
           list_items: [
@@ -73,6 +77,7 @@ const copy = {
     cards: [
       {
         title: 'The Latymer School',
+        link: 'https://www.latymer.co.uk',
         dates: '2015-present',
         description: 'I completed my GCSEs at Latymer with top grades, and am currently studying A-Levels in the sixth form. I\'ve been engaged in the school\'s wider community and was awarded Spirit of Latymer in Year 10.',
         alevels: ['Chemistry', 'Further Maths', 'Maths', 'Physics'],
@@ -92,36 +97,42 @@ const copy = {
       },
       {
         title: 'CyberStart Elite 2020 Participant',
+        link: 'https://www.sans.org/course/network-penetration-testing-ethical-hacking',
         dates: 'July - Aug 2020',
         description: 'From the initial cohort of over 35k students, I was one of the top 200 who qualified for the final stage, CyberStart Elite. As this was my first year, I completed a course based on SANS SEC560: Ethical Hacking Fundamentals. I learnt key pentesting skills, ranging from planning and scoping to exploitation and attacks. I also spent a full day completing CTF challenges simulating a real pentest on a business.',
         logos: ['sans.jpg', 'cyberdiscovery.png']
       },
       {
         title: 'DataCamp - Data Scientist with Python - Career Track',
+        link: 'https://www.datacamp.com/',
         dates: 'Jun 2020',
         description: 'During lockdown, I completed the Data Scientist with Python career track. This helped me gain a deeper understanding of data science and machine learning. I completed practical exercises with basic classifiers and regressors before moving into more advanced unsupervised learning techniques such as neural networks. I intend to complete the fastAI course to further my knowledge.',
         logos: ['datacamp.png']
       },
       {
         title: 'CyberStart Essentials - Distinction',
+        link: 'https://joincyberdiscovery.com/',
         dates: 'May 2020',
         description: 'CyberStart Essentials complemented CyberStart Game, the two mains parts of the CyberDiscovery program. Whilst Game is practical challenges, Essentials focuses on teaching the theory through a series of videos and articles. There is a mini-quiz and exam at the end of each section, building up to a final 1 hour 30 mins exam in which I scored 88% and achieved a distinction.',
         logos: ['cyberdiscovery.png']
       },
       {
         title: 'Cyber Discovery (CyberStart)',
+        link: 'https://joincyberdiscovery.com/',
         dates: 'Sep 2019 - May 2020',
         description: 'After qualifying for the main stage of the CyberDiscovery program, I participated in interactive challenges throughout the year. With an aim to qualify for Elite in my first year and my GCSE year, I learnt to balance commitments. I completed 97% of challenges, including web exploitation, binary exploitation, forensic recovery, python scripting and cryptography.',
         logos: ['cyberdiscovery.png']
       },
       {
         title: 'Duke of Edinburgh (Bronze)',
+        link: 'https://www.dofe.org/',
         dates: 'Sep 2019',
         description: 'Throughout the year, I completed my volunteering activity at the Children\'s Air Ambulance charity shop, working on the tills, teaching me valuable life skills. I also learnt photography which I continue to enjoy in my free time, using a DSLR camera and Lightroom to edit my photos. I rounded off DofE with a 2 day camping trip, developing important teamwork and communication skills.',
         logos: ['dofe.jpg']
       },
       {
         title: 'Delancey Schools Chess Challenge GigaFinal',
+        link: 'https://www.delanceyukschoolschesschallenge.com/',
         dates: 'July 2015',
         description: 'In Year 6, I was selected from my school\'s chess club to compete in a national tournament. It began with a regional \'Megafinal\' in which I was the only student from my school to pass. I gained valuable experience at the \'Gigafinal\', where I was tutored by an professional chess player.',
         logos: ['delancey.png']

@@ -39,3 +39,12 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.title-link {
+  color:black;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: gray;
+}
