@@ -4,28 +4,28 @@ const copy = {
       {
         title: 'Rookie Cooks',
         dates: 'March 2020 - Present',
-        list: {'list_title':'A wide ranging technical support role including:','list_items':['web development;','supporting digital advertising campaigns;','advising on and managing a transfer of booking systems in order to support the growing online business, leading to savings of at least 2% per transaction;','developing a custom WordPress plugin utilising the Bookwhen API to display classes on our site in a suitable format;','assisting with running a successful Google Ads campaign which saw a significant rise in booking numbers;','learning important data analytics skills using Google Analytics and extracted a number of useful insights which were acted upon and proved valid.']},
+        list: { list_title: 'A wide ranging technical support role including:', list_items: ['web development;', 'supporting digital advertising campaigns;', 'advising on and managing a transfer of booking systems in order to support the growing online business, leading to savings of at least 2% per transaction;', 'developing a custom WordPress plugin utilising the Bookwhen API to display classes on our site in a suitable format;', 'assisting with running a successful Google Ads campaign which saw a significant rise in booking numbers;', 'learning important data analytics skills using Google Analytics and extracted a number of useful insights which were acted upon and proved valid.'] },
         description: 'I had a wide ranging role including offering technical support, web development and supporting digital advertising campaigns. I advised on and managed a transfer of booking systems in order to support the growing online business, leading to savings of at least 2% per transaction. I developed a custom WordPress plugin utilising the Bookwhen API to display classes on our site in a suitable format. I assisted with running a successful Google Ads campaign which saw a significant rise in booking numbers. I learnt important data analytics skills using Google Analytics and extracted a number of useful insights which were acted upon and proved valid.',
         logos: ['rookiecooks.png']
       },
       {
         title: 'Catherine Powell',
         dates: 'July 2020 - Present',
-        list: {'list_title':'A web development role including:','list_items':['developing a Wordpress website from scratch alongside building on an existing booking solution','custom writing most of the site according to the client\'s design specification','digging into Wordpress theme files and selectively overriding specific ones with my own child theme','adapting custom parts of the theme to be responsive and attractive on mobile devices and tablets','advising the customer and a wider cohort of therapists on the optimal booking system for the client\'s requirements and tweaking it further to ensure it was successful','integrated Stripe with the booking system and added a function ensuring payments were linked to the customer and appointment booked, utilising the Stripe API']},
+        list: { list_title: 'A web development role including:', list_items: ['developing a Wordpress website from scratch alongside building on an existing booking solution', 'custom writing most of the site according to the client\'s design specification', 'digging into Wordpress theme files and selectively overriding specific ones with my own child theme', 'adapting custom parts of the theme to be responsive and attractive on mobile devices and tablets', 'advising the customer and a wider cohort of therapists on the optimal booking system for the client\'s requirements and tweaking it further to ensure it was successful', 'integrated Stripe with the booking system and added a function ensuring payments were linked to the customer and appointment booked, utilising the Stripe API'] },
         description: 'I developed a Wordpress website from scratch alongside building on an existing booking solution. Whilst the website itself was built on Wordpress to allow easy content management after the initial build by non technical users, I custom wrote most of the site according to the client\'s design specification. This involved digging into Wordpress theme files and selectively overriding specific ones. I also had to adapt custom parts of the theme to be responsive and attractive on mobile devices and tablets. I advised on the optimal booking system for the client\'s requirements and tweaked it further to ensure it was successful. I integrated Stripe with the booking system and added a function ensuring payments were linked to the customer and appointment booked, utilising the Stripe API.',
         logos: ['catherinepowell.png']
       },
       {
         title: 'Forensic Architecture',
         dates: 'March 2020 - Present',
-        list: {'list_title':'','list_items':[]},
+        list: { list_title: '', list_items: [] },
         description: 'This is a default description',
         logos: ['forensicarchitecture.png']
       },
       {
         title: 'Children\'s Air Ambulance',
         dates: 'March 2020 - Present',
-        list: {'list_title':'','list_items':[]},
+        list: { list_title: '', list_items: [] },
         description: 'This is a default description',
         logos: ['childrenairambulance.jpg']
       }
