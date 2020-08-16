@@ -10,6 +10,8 @@
 .square-card-container {
     width: 50vw;
     display: inline-block;
+    float: left;
+    margin-top: 20px;
 }
 
 .inner-square-card {
@@ -18,4 +20,32 @@
     margin: auto;
     display: inline-block;
     box-shadow:-11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+}
+
+.logo-title-container {
+    margin-top: 10px;
+}
+
+.logo-title-container > * {
+    display: inline-block;
+}
+
+.logo-title-container > img {
+    border-radius: 5px;
+}
+
+.logo-title-container > h2 {
+    margin: 0;
+    line-height: 50px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.outer-square-cards-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.square-card-container {
+    flex-basis: 50%;
 }

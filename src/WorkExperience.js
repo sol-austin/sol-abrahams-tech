@@ -9,9 +9,11 @@ const WorkExperience = () => {
       <div className='work-experience-container'>
         <div className='inner-work-experience-container'>
           <h1>WORK EXPERIENCE</h1>
-          {copy.workexperience.cards.map(card => (
-            <CardSquare card={card} key={card.title} />
-          ))}
+          <div className='outer-square-cards-container'>
+            {copy.workexperience.cards.map(card => (
+              <CardSquare card={card} key={card.title} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -4,7 +4,12 @@ const CardSquare = (props) => {
   return (
     <div className='square-card-container'>
       <div className='inner-square-card'>
-        <p>CardTitle</p>
+        <div className='logo-title-container'>
+          {props.card.logos.map(logo => (
+            <img alt='logo' src={require('../public/logos/' + logo)} height={50} width={50} />
+          ))}
+          <h2>{props.card.title}</h2>
+        </div>
       </div>
     </div>
   )

@@ -2,10 +2,21 @@ const copy = {
   workexperience: {
     cards: [
       {
-        title: 'Rookie Cooks'
+        title: 'Rookie Cooks',
+        description: 'I helped with lots of things',
+        logos: ['rookiecooks.png']
       },
       {
-        title: 'Catherine Powell'
+        title: 'Catherine Powell',
+        logos: []
+      },
+      {
+        title: 'Forensic Architecture',
+        logos: ['forensicarchitecture.png']
+      },
+      {
+        title: 'Children\'s Air Ambulance',
+        logos: ['childrenairambulance.jpg']
       }
     ]
   },
