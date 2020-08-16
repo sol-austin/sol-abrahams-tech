@@ -2,10 +2,12 @@ import React from 'react'
 import './Education.css'
 import CardRow from './CardRow.js'
 import copy from './common/copy.js'
+import HomeButton from './HomeButton'
 
 const Education = () => {
   return (
     <div>
+      <HomeButton />
       <div className='education-page-container'>
         <div className='inner-education-container'>
           <h1>EDUCATION & ACHIEVEMENTS</h1>

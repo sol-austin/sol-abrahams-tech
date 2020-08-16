@@ -10,7 +10,13 @@ const CardSquare = (props) => {
           ))}
           <h2>{props.card.title}</h2>
         </div>
-        <p>{props.card.description}</p>
+        <h4 className='square-dates'>{props.card.dates}</h4>
+        <p>{props.card.list.list_title}</p>
+        <ul>
+          {props.card.list.list_items.map(item => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )
