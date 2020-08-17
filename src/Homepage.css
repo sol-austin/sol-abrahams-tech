@@ -1,0 +1,30 @@
+@media only screen and (max-width:640px) {
+    .title-text-container > h1 {
+        font-size: 2rem;
+    }
+
+    .title-text-container > h3 {
+        font-size: 1.5rem;
+    }
+}
+
+.homepage-body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.homepage-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+    .homepage-col {
+        min-height: 50vh;
+        height: 50vh;
+    }
+
+    .homepage-card {
+        min-height: 50vh;
+    }
+}

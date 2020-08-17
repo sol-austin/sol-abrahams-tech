@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+ul.education-achievement-events {
+  margin-top: 40px;
+}
+
 ul.education-achievement-events > li {
   background-color: white;
   padding: 20px;
@@ -144,4 +148,15 @@ ul.education-achievement-events > li {
 .outer-cards-description-school-grades-container {
   display: flex;
   flex: 3 1;
+  flex-flow: row wrap;
+}
+
+@media only screen and (max-width: 680px) {
+  .internal-card {
+    width: 100%;
+  }
+
+  .the-latymer-school {
+    flex-flow: column;
+  }
 }

@@ -4,6 +4,11 @@ import './HomepageHeader.css'
 const HomepageHeader = () => {
   return (
     <div className='outer-homepage-header-container'>
+      <div className='linkedin-container'>
+        <a href='https://www.linkedin.com/in/sol-abrahams/'>
+          <img alt='linkedin-logo' src='logos/linkedin.png' width={50} />
+        </a>
+      </div>
       <div className='title-text-container' style={{ zIndex: 999, color: 'white' }}>
         <h1 style={{ fontWeight: 'normal' }}>Hello, I'm <span>Sol Abrahams.</span></h1>
         <hr />

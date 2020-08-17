@@ -3,6 +3,14 @@
   width: 50%;
 }
 
+.LI-view-profile {
+  float: left;
+}
+
+.LI-badge-container {
+  margin: 20px;
+}
+
 button.find-out-more {
   display: block;
   margin: 20px auto auto;
@@ -58,4 +66,14 @@ button.find-out-more:hover > .rotate-arrow {
 
 div.title-text-container > h1 > span {
   color: #E0BC29;
+}
+
+.linkedin-container {
+  position: absolute;
+}
+
+.linkedin-container > a {
+  display: inline-block;
+  margin: 20px;
+  vertical-align: middle;
 }

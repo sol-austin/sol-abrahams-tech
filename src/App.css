@@ -48,3 +48,15 @@ html {
 .title-link:hover {
   color: gray;
 }
+
+@media only screen and (max-width: 450px) {
+  .home-button {
+    margin-left: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-button {
+    margin-top: 40px !important;
+  }
+}

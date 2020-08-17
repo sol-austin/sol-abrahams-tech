@@ -8,10 +8,11 @@
 }
 
 .square-card-container {
-    width: 50vw;
     display: inline-block;
     float: left;
     margin-top: 20px;
+    flex: 450px;
+    min-width: 50%;
 }
 
 .inner-square-card {
@@ -67,10 +68,6 @@
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 50px;
-}
-
-.square-card-container {
-    flex-basis: 50%;
 }
 
 .square-dates {
