@@ -86,9 +86,9 @@ const copy = {
           Chemistry: 9,
           'Design & Technology': 9,
           'English Language': 9,
-          'English Literature': 9,
+          'English Literature': 8,
           Geography: 9,
-          German: 9,
+          German: 7,
           History: 9,
           Maths: 9,
           Physics: 9
