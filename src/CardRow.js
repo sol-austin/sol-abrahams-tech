@@ -43,12 +43,12 @@ const CardRow = (props) => {
                     <li>Biology<span className='grade-number'>9</span></li>
                     <li>Chemistry<span className='grade-number'>9</span></li>
                     <li>Design & Technology<span className='grade-number'>9</span></li>
-                    <li>English Language<span className='grade-number'>9</span></li>
+                    <li>English Language<span className='grade-number'>8</span></li>
                     <li>English Literature<span className='grade-number'>9</span></li>
                   </ul>
                   <ul className='right-column-gcse-grades gcse-grades-column'>
                     <li>Geography<span className='grade-number'>9</span></li>
-                    <li>German<span className='grade-number'>9</span></li>
+                    <li>German<span className='grade-number'>7</span></li>
                     <li>History<span className='grade-number'>9</span></li>
                     <li>Maths<span className='grade-number'>9</span></li>
                     <li>Physics<span className='grade-number'>9</span></li>
