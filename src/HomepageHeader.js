@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomepageHeader.css'
+import Scroll from 'react-scroll'
 
 const HomepageHeader = () => {
   return (
@@ -13,7 +14,7 @@ const HomepageHeader = () => {
         <h1 style={{ fontWeight: 'normal' }}>Hello, I'm <span>Sol Abrahams.</span></h1>
         <hr />
         <h3 style={{ fontWeight: 'normal' }}>I'm a student with a passion for<br />programming and problem solving.</h3>
-        <a href='#homepage-body'>
+        <a href='#homepage-body' onClick={() => Scroll.animateScroll.scrollTo(window.innerHeight)}>
           <button className='find-out-more'>
             <p style={{ display: 'inline-block', margin: 'auto', fontSize: 20 }}>Find out more</p>
             <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' className='feather feather-arrow-right rotate-arrow'>

@@ -10,7 +10,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
   <TransitionGroup>
     <CSSTransition
       key={location.key}
-      classNames='fade'
+      classNames='l'
       timeout={{
         enter: 500,
         exit: 100
