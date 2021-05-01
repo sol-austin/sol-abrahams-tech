@@ -101,7 +101,6 @@ const copy = {
         dates: 'April 2021',
         description: 'Following the rushed launch of the European Super League, I explored their website for hidden information. I stopped short of using any scanning tools and manually scoured the site for clues. I uncovered an unpublished \'intro video\' and document justifying the breakaway. It formed the basis of a \'nuclear\' news story by the Guardian and I was personally credited and thanked by senior figures from the paper.',
         logos: ['guardian.png', 'thesuperleague.png']
-        
       },
       {
         title: 'CyberStart Elite 2020 Participant',
